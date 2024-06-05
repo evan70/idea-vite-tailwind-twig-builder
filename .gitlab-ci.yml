@@ -1,0 +1,19 @@
+image: node:18
+
+pages:
+  only:
+    - pages
+  cache:
+    paths:
+      - node_modules/
+  tags:
+    - docker
+  script:
+    - rm -rf ./public
+    - pnpm
+    - pnpm build
+    - cp -r static/build public
+  artifacts:
+    paths:
+      - public
+

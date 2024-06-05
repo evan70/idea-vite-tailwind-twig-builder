@@ -1,0 +1,10 @@
+{
+    "extends": [
+        "./.eslintrc-base",
+        "./.eslintrc-import",
+        "./.eslintrc-vue"
+    ],
+    "env": {
+        "node": true
+    }
+}
