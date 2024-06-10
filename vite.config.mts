@@ -18,7 +18,7 @@ export default defineConfig({
         devSourcemap: true
     },
     // assetsInclude: [
-    //     'resources/gif/**'
+    //     'src/gif/**'
     // ],
     build: {
         outDir: path.resolve(config.buildDir),
