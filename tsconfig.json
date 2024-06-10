@@ -27,10 +27,10 @@
 
         "baseUrl": "./",
         "paths": {
-            "@/*": [ "resources/*" ],
-            "@src/*": [ "resources/js@src/*" ],
-            "@pub/*": [ "resources/js@pub/*" ],
-            "@img/*": [ "resources/img/*" ],
+            "@/*": [ "src/*" ],
+            "@src/*": [ "src/js@src/*" ],
+            "@pub/*": [ "src/js@pub/*" ],
+            "@img/*": [ "src/img/*" ],
         },
         "types": [
             "vite/client"
@@ -38,6 +38,6 @@
     },
     "include": [
         "*",
-        "resources/**/*"
+        "src/**/*"
     ],
 }
