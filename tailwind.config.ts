@@ -1,15 +1,15 @@
 import defaultColors from 'tailwindcss/colors';
 import defaultTheme from 'tailwindcss/defaultTheme';
 
-import screens from './resources/data/config/screens.json';
+import screens from './src/data/config/screens.json';
 
 /** @type {import('tailwindcss').Config} */
 export default {
     content: [
-        './resources/js@src/**/*.{js,ts,tsx,vue}',
-        './resources/js@pub/**/*.{js,ts,tsx,vue}',
-        './resources/views/**/*.blade.php',
-        './resources/layouts/**/*.twig'
+        './src/js@src/**/*.{js,ts,tsx,vue}',
+        './src/js@pub/**/*.{js,ts,tsx,vue}',
+        './src/views/**/*.blade.php',
+        './src/layouts/**/*.twig'
     ],
     prefix: '',
     important: false,
@@ -68,8 +68,8 @@ export default {
                 },
 
                 primary: {
-                    DEFAULT: '#8c9d25',
-                    hover: '#e4ff3c'
+                    DEFAULT: '#4f7095',
+                    hover: '#a0b3d3'
                 },
 
                 error: defaultColors.red[ '500' ],

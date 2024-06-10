@@ -35,7 +35,7 @@ Start a local development server with hot reload:
 $ pnpm dev
 ```
 
-All development files are located under `resources/`
+All development files are located under `src/`
 
 ### Production
 
@@ -49,7 +49,7 @@ All build files are located under `static/build/`
 
 ## Configuration
 
-Edit the [`vite-config/config.js`](vite-config/config.js) or [`vite.config.mts`](vite.config.mts) according to your needs
+Edit the [`vite.config.mts`](vite.config.mts)
 
 ### Vite
 
